@@ -9,7 +9,7 @@ networks:
 
 services:
   frontend:
-    container_name: shag-1709-frontend
+    container_name: shag-1709hw-frontend
     build:
       context: .
       dockerfile: .deploy/docker/frontend/Dockerfile
@@ -24,7 +24,7 @@ services:
       - 8011:80
 
   backend:
-    container_name: shag-1709-backend
+    container_name: shag-1709hw-backend
     build:
       context: .
       dockerfile: .deploy/docker/backend/Dockerfile
