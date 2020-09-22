@@ -1,5 +1,7 @@
 <?php
+
 require 'lib/grade.php';
+namespace lib;
 
 class School
 {

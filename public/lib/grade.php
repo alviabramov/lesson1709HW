@@ -1,6 +1,6 @@
 <?php
 require 'lib/student.php';
-
+namespace lib;
 class Grade
 {
   public $stude1;
